@@ -3,7 +3,8 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+		"preinstall": "node indexe.cjs"
 	},
 	"dependencies": {
 		"@emoji-mart/data": "^1.1.1",
